@@ -53,3 +53,52 @@ aes-from-scratch/
 ├── README.md            # Documentação e instruções de utilização
 ├── aes.py               # Implementação pura do AES-128 (funções e tabelas)
 └── main.py              # Script principal para execução e testes
+```
+---
+
+## 💻 Como Executar
+
+*  **Pré-requisitos**
+Apenas o Python 3.8 ou superior instalado no seu sistema. Não é necessária a instalação de pacotes adicionais via pip.
+
+* **Passos**
+Clone o repositório:
+
+
+```Bash
+git clone [https://github.com/alanaagne/aes-from-scratch.git](https://github.com/alanaagne/aes-from-scratch.git)
+Entre na pasta do projeto:
+
+```
+
+```Bash
+cd aes-from-scratch
+
+```
+* Execute o script principal:
+
+```Bash
+python main.py
+
+```
+---
+
+## 📊 Exemplo de Saída
+
+```Plaintext
+============================================================
+ DEMONSTRAÇÃO PRÁTICA DO ALGORITMO AES-128 (SEM LIBS) 
+============================================================
+
+[+] Texto Original : SegurancaRedes26
+[+] Chave Usada     : ChaveSecreta128b
+[+] Bytes do Texto  : 5365677572616e636152656465733236
+
+[✓] Bloco Cifrado (HEX): C78E9A82B02A1C3F9A27F11E...
+
+[✓] Bloco Decifrado (Texto): SegurancaRedes26
+
+--> SUCESSO: O texto decifrado é idêntico ao original!
+
+```
+---
